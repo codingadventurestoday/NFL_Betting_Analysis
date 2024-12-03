@@ -1,18 +1,12 @@
-from convert_date import convert_date
+from convert_date import convert_date, check_starting_time
+from change_sign_values import change_signs
 #from handle_status_code import handle_status_code
 from get_text_recursively import get_text_from_span_element
 
 import requests
 
 from bs4 import BeautifulSoup as bs
-
-"""
-********
-1. problem: HTML has some dates/day of game not matching actual day
-   i.e sunday night game is listed as monday 
-   i.e. monday game might be listed as tuesda
-********
-"""
+""" Please note that the game times are in CUT time zone"""
 
 betting_data = []
 
@@ -43,44 +37,72 @@ for index, day in enumerate(day_of_game_list):
 
     if isinstance(date, str) and len(date) > 1:
         date = date.lower()
-        formatted_date= convert_date(date)
+        formatted_date = convert_date(date)
 
     """Get betting data: home_team_name, away_team_name, over_under, home_spread, away_spread"""
     games = game_day_info_list[index].find_all("tr")
 
+    "a list of the start times; includes any current game being played (if game is playing value is none)"
+    start_time_list = game_day_info_list[index].find_all("span", "event-cell__start-time")
+
     for i in range(0, len(games), 2):
         game_data = {}
-        game_data["date_of_game"] = formatted_date
+        
+        start_time = start_time_list[i].get_text()
+        date_of_game = check_starting_time(start_time, formatted_date)
+        game_data["date_of_game"] = date_of_game
 
-        away_team_name = games[i].find("div", class_="event-call__name-text")
+        td_elements_list = games[i].find_all("td", "sportsbook-table__column-row")
+    
+        away_team_name = games[i].find("div", class_="event-cell__name-text")
         if away_team_name:
-            away_team_name = away_team_name.txt
+            away_team_name = away_team_name.get_text()
             game_data["away_team_name"] = away_team_name
-
-        away_spread = games[i].find("span", class_="")
+        
+        away_spread = td_elements_list[0].find("span", "sportsbook-outcome-cell__line")
         if away_spread:
-            away_spread = away_spread.txt
-            game_data["away_spread"] = away_spread
-
-        home_team_name = games[i].find("div", class_="event-call__name-text")
+            away_spread = away_spread.get_text()
+            home_spread = change_signs(away_spread)
+            game_data["away_spread"] = float(away_spread)
+            game_data["home_spread"] = float(home_spread)
+    
+        home_team_name = games[i+1].find("div", class_="event-cell__name-text")
         if home_team_name:
-            home_team_name = home_team_name.txt
+            home_team_name = home_team_name.get_text()
             game_data["home_team_name"] = home_team_name
-
-        over_under = games[i].find("span", class_="")
+    
+        over_under = td_elements_list[1].find("span", "sportsbook-outcome-cell__line")
         if over_under:
-            over_under = over_under.txt
-            game_data["over_under"] = over_under
-
-        home_spread = games[i+1].find("span", class_="")
-        if home_spread:
-            home_spread = home_spread.txt
-            game_data["home_spread"] = home_spread
-
+            over_under = over_under.get_text()
+            game_data["over_under"] = float(over_under)
+        
         betting_data.append(game_data)
 
-# for team in betting_data:
-#     for k,v in team.items():
-#         print(f"key: {k}")
-#         print(f"value: {v}")
-#         print("")
+for testing, game in enumerate(betting_data):
+    print("")
+    print(f"this is game: {testing+1}")
+    for k, v in game.items():
+
+        print(f"This is the key: {k}")
+        print(f"this is the value: {v}")
+    print("")
+
+"""Betting data contains: 
+key: date_of_game
+value: str [format: yyyy-mm-dd]
+
+key: away_team_name
+Value: str
+
+key: away_spread
+Value: float
+
+key: home_spread
+Value: int
+
+key: home_team_name
+Value: float
+
+key: over/under
+Value: float
+"""
