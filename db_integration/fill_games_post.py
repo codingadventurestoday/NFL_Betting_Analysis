@@ -1,11 +1,20 @@
-from retrieve_NFL_scores import games_outcome_list
+from ..data_extraction.retrieve_NFL_scores import games_outcome_list
+
 import mysql.connector
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from the .env file
+load_dotenv()
+
+# Access the database password
+database_password = os.getenv('DATABASE_PASSWORD')
 
 conn = mysql.connector.connect(
     host = "35.237.41.191",
     port = 3307,
     user = "root",
-    password = "51M@yo54Hightower83Welker",
+    password = database_password,
     database = "historical_application_data",
 )
 
