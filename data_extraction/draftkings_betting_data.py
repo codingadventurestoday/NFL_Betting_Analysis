@@ -1,7 +1,7 @@
-from convert_date import convert_date, check_starting_time
-from change_sign_values import change_signs
-from handle_status_code import log_request
-from get_text_recursively import get_text_from_span_element
+from data_extraction.convert_date import convert_date, check_starting_time
+from data_extraction.change_sign_values import change_signs
+from data_extraction.handle_status_code import log_request
+from data_extraction.get_text_recursively import get_text_from_span_element
 
 from datetime import datetime
 
@@ -47,7 +47,7 @@ if response is not None:
 
         for i in range(0, len(games), 2):
             game_data = {}
-        
+
             start_time = start_time_list[i].get_text()
             date_of_game = check_starting_time(start_time, formatted_date)
             game_data["date_of_game"] = date_of_game

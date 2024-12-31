@@ -1,4 +1,4 @@
-from handle_status_code import log_request
+from data_extraction.handle_status_code import log_request
 
 url = "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
 

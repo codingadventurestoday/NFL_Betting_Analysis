@@ -1,26 +1,11 @@
-from ..data_extraction.draftkings_betting_data import betting_data
-from teamInformation import week
+from data_extraction.draftkings_betting_data import betting_data
+from data_extraction.teamInformation import week
+from db_integration.connection import connect_to_db
 
-import mysql.connector
-import os
-from dotenv import load_dotenv
-
-# Load environment variables from the .env file
-load_dotenv()
-
-# Access the database password
-database_password = os.getenv('DATABASE_PASSWORD')
+conn = connect_to_db()
 
 week = week["number"]
 next_week = week + 1
-
-conn = mysql.connector.connect(
-    host = "35.237.41.191",
-    port = 3307,
-    user = "root",
-    password = database_password,
-    database = "historical_application_data",
-)
 
 myCursor = conn.cursor()
 

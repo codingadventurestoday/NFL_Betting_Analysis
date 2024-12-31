@@ -11,7 +11,7 @@ load_dotenv()
 database_password = os.getenv('DATABASE_PASSWORD')
 
 conn = mysql.connector.connect(
-    host = "35.237.41.191",
+    host = "34.74.220.185",
     user = "root",
     port = 3307,
     password = database_password,
