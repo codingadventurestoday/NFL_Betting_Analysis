@@ -28,16 +28,19 @@ for game in betting_data:
     home_moneyline = game["moneyline_home"]
 
     myCursor.execute(query_get_teamID, (away_team,))
-    away_teamID = myCursor.fetchone()
-    away_teamID = away_teamID[0]
+    away_teamID = myCursor.fetchall()
+    if away_teamID:
+        away_teamID = away_teamID[0][0]
 
     myCursor.execute(query_get_teamID, (home_team,))
-    home_teamID = myCursor.fetchone()
-    home_teamID = home_teamID[0]
+    home_teamID = myCursor.fetchall()
+    if home_teamID:
+        home_teamID = home_teamID[0][0]
 
     myCursor.execute(query_get_gameID, (home_teamID, away_teamID))
-    gameID = myCursor.fetchone()
-    gameID = gameID[0]
+    gameID = myCursor.fetchall()
+    if gameID: 
+        gameID = gameID[0][0]
 
     myCursor.execute(query_input, (gameID, date_gathered, over_under, over_odds, under_odds, home_spread, away_spread, home_spread_odds, away_spread_odds, home_moneyline, away_moneyline))
 
