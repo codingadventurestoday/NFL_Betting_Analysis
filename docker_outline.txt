@@ -1,5 +1,0 @@
-need: 
-- ubuntu server 
-- request library 
-- mysql connector 
-- 
