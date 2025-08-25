@@ -1,26 +1,24 @@
 import mysql.connector
 
-import os
-from dotenv import load_dotenv
+from vault_data import get_db_credentials_from_vault
 
-# Load environment variables from the .env file
-load_dotenv()
+vault_data_tuple = get_db_credentials_from_vault()
 
-database_password = os.getenv('DATABASE_PASSWORD')
+secret_db_password = vault_data_tuple[0]
+secret_db_name = vault_data_tuple[1]
 
 # Connection to the remote MySQL server
 conn = mysql.connector.connect(
-    host="35.237.41.191",
-    port= 3307,
     user="root",
-    password=database_password,
+    password= secret_db_password,
 )
 
 mycursor = conn.cursor()
 
-create_table = "CREATE DATABASE historical_application_data"
+create_database = f"CREATE DATABASE {secret_db_name}"
+
 # Execute multiple queries
-mycursor.execute(create_table)
+mycursor.execute(create_database)
 
 conn.commit()
 mycursor.close()

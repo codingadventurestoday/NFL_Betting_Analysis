@@ -1,22 +1,10 @@
 import mysql.connector
 
 import os
-from dotenv import load_dotenv
 
-# Load environment variables from the .env file
-load_dotenv()
+from connection import connect_to_db
 
-# Access the database password
-database_password = os.getenv('DATABASE_PASSWORD')
-
-# Establish a connection to the remote MySQL server
-conn = mysql.connector.connect(
-    host="35.237.41.191",
-    port= 3307,
-    user="root",
-    password=database_password,
-    database="historical_application_data",
-)
+conn = connect_to_db()
 
 # Create a cursor object to execute SQL queries
 mycursor = conn.cursor()

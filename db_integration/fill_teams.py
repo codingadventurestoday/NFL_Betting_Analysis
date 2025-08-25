@@ -1,22 +1,9 @@
+import mysql.connector
+
+from connection import connect_to_db
 from ..data_extraction.teamInformation import teamNames
 
-import mysql.connector
-import os
-from dotenv import load_dotenv
-
-# Load environment variables from the .env file
-load_dotenv()
-
-# Access the database password
-database_password = os.getenv('DATABASE_PASSWORD')
-
-conn = mysql.connector.connect(
-    host = "34.74.220.185",
-    user = "root",
-    port = 3307,
-    password = database_password,
-    database = "historical_application_data",
-)
+conn = connect_to_db()
 
 myCursor = conn.cursor()
 
