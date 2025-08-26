@@ -8,24 +8,27 @@ def get_db_credentials_from_vault():
     """
     try:
         # Get the Vault address from an environment variable
-        vault_addr = os.getenv('VAULT_ADDR')
+        vault_ip_addr = os.getenv('VAULT_IP_ADDR')
+        vault_path = os.getenv('VAULT_PATH')
         
-        # Initialize the hvac client
-        client = hvac.Client(url=vault_addr)
+        if vault_ip_addr and vault_path:
+            # Initialize the hvac client
+            client = hvac.Client(url=vault_ip_addr)
+        else:
+            print("Was not able to retrieve vault address as env var")
+            return None
 
         # Authenticate with the GCP auth method
-        # The hvac client automatically detects the instance's identity
-        # and uses it to authenticate.
         client.auth.gcp.login()
         
         if not client.is_authenticated():
-            print("Failed to authenticate with Vault.")
+            print("Failed to authenticate with Vault during login.")
             return None
 
         # Retrieve the secret
         read_response = client.secrets.kv.v2.read_secret_version(
-            mount_point='secret',  # Or the name of your KV secret engine
-            path='my-app/db'
+            mount_point='secret', 
+            path=vault_path
         )
         # mount_point: path where your kv engine is: default is secret
         # remainder of the full path to the specific key you want read
