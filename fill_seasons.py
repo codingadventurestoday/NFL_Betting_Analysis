@@ -1,5 +1,5 @@
-from data_extraction.retrieveSeasonData import yearInformation
-from db_integration.connection import connect_to_db
+from retrieveSeasonData import yearInformation
+from connection import connect_to_db
 
 conn = connect_to_db()
 

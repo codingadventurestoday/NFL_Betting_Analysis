@@ -16,13 +16,12 @@ def convert_date(date_str):
 
     else:
         # Remove the ordinal suffix (ND, ST, TH) and day of week
-        date_str = date_str[4:-2]
+        date_str = date_str[4:-3]
         year = str(now.year)
-        date_str = date_str + " " + year
+        date_str = date_str.capitalize() + " " + year
 
         # Parse the date string to a datetime object
         date_obj = datetime.strptime(date_str, "%b %d %Y")
-
         reval_str = date_obj.strftime("%Y-%m-%d")
 
     return reval_str

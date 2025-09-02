@@ -1,6 +1,6 @@
-from data_extraction.retrieve_NFL_scores import games_outcome_list
+from retrieve_NFL_scores import games_outcome_list
 
-from db_integration.connection import connect_to_db
+from connection import connect_to_db
 
 conn = connect_to_db()
 

@@ -1,6 +1,6 @@
-from data_extraction.draftkings_betting_data import betting_data
-from data_extraction.teamInformation import week
-from db_integration.connection import connect_to_db
+from draftkings_betting_data import betting_data
+from teamInformation import week
+from connection import connect_to_db
 
 conn = connect_to_db()
 

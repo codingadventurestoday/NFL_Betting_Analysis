@@ -1,7 +1,7 @@
 import mysql.connector
 
 from connection import connect_to_db
-from ..data_extraction.teamInformation import teamNames
+from teamInformation import teamNames
 
 conn = connect_to_db()
 
