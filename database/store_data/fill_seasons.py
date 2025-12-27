@@ -1,5 +1,5 @@
-from retrieveSeasonData import yearInformation
-from connection import connect_to_db
+from scrapping.retrieveSeasonData import yearInformation
+from database.connection import connect_to_db
 
 conn = connect_to_db()
 

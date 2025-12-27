@@ -3,9 +3,8 @@ from bs4 import BeautifulSoup as bs
 
 from datetime import datetime, timedelta
 
-from convert_date import convert_date, check_starting_time
-from change_sign_values import change_signs
-from handle_status_code import log_request
+from scrapping.helper.convert_date import convert_date, check_starting_time
+from logging.handle_status_code import log_request
 
 """ Please note that the game times are in CUT time zone"""
 
@@ -15,17 +14,21 @@ url = 'https://sportsbook.draftkings.com/leagues/football/nfl?category=game-line
 
 #creates the timestamps for now and in two weeks
 now = datetime.now()
+one_day = timedelta(days=1)
+tomorrow = now + one_day
 two_weeks = timedelta(weeks=2)
 cut_off_date = now + two_weeks 
 
 now = str(now)
+tomorrow = str(tomorrow)
 cut_off_date = str(cut_off_date)
 
 now = now[:10]
+tomorrow = tomorrow[:10]
 cut_off_date = cut_off_date[:10]
 
 with sync_playwright() as p:
-    browser = p.chromium.launch()
+    browser = p.chromium.launch(headless=True)
     page = browser.new_page()
     page.goto(url)
 
@@ -36,9 +39,6 @@ with sync_playwright() as p:
     # finds all the div elements which have games
     day_blocks = soup.findAll("div", class_="cb-static-parlay__wrapper")
 
-    now = str(datetime.now())
-    now = now[:10]
-
     for day_block in day_blocks:
         #gets the date for the current day of games
         game_date_element = day_block.find("span", class_="cb-event-cell__start-time")
@@ -46,9 +46,15 @@ with sync_playwright() as p:
 
         if isinstance(game_date_txt, str) and len(game_date_txt) > 1:
             game_date_txt = game_date_txt.lower()
-            formatted_date = convert_date(game_date_txt[:-7])
-            start_time = game_date_txt[12:]
-            date_of_game = check_starting_time(start_time, formatted_date)
+
+            if game_date_txt[:5] == "today":
+                date_of_game = now
+            elif game_date_txt[:8] == "tomorrow":
+                date_of_game = tomorrow 
+            else:
+                formatted_date = convert_date(game_date_txt[:-7])
+                start_time = game_date_txt[12:]
+                date_of_game = check_starting_time(start_time, formatted_date)
         
         if cut_off_date < date_of_game:
             break
@@ -58,7 +64,7 @@ with sync_playwright() as p:
 
         for game_block in game_blocks:
             game_data = {}
-
+            
             game_data["date_collected"] = now
             game_data["date_of_game"] = date_of_game
 
@@ -99,9 +105,6 @@ with sync_playwright() as p:
             game_data["moneyline_away"] = away_win_moneyline
 
             betting_data.append(game_data)
-
-
-
 
 
 """

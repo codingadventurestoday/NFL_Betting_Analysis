@@ -1,113 +1,272 @@
-{"datetime": "2024-12-19T11:52:07.120452", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-19T11:53:23.795619", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-19T11:53:23.795619", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2024-12-19T11:57:57.422436", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-19T11:58:21.473922", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-19T12:01:55.994792", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-19T12:02:20.751204", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-20T19:55:43.068243", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-20T19:56:16.166361", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-20T19:59:02.043386", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-20T20:00:32.313389", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-21T11:01:03.780317", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-21T19:08:00.276712", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-21T19:11:09.509482", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-21T19:11:27.539679", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-21T19:11:38.023844", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-21T19:12:02.992492", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-21T20:59:52.636725", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-21T21:03:31.979807", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-22T08:34:32.159720", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-23T18:39:01.166582", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-24T09:42:09.894191", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-25T11:41:54.666158", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-25T11:46:51.747253", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-26T13:41:06.270636", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-27T17:19:33.492074", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-28T06:31:59.300138", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-29T09:34:03.438916", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-30T18:06:02.470207", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-30T18:08:10.619452", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-30T18:08:30.679659", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-30T18:09:11.736904", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-30T18:09:11.736904", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2024-12-30T18:09:25.160291", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-31T12:09:37.075791", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2024-12-31T12:11:22.106454", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-01-01T17:00:23.330807", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-02T11:33:04.204318", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-03T15:58:32.414000", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-04T11:00:01.511749", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-05T07:45:50.242562", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-05T07:46:17.018195", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-06T13:19:48.523195", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-01-06T13:20:05.810428", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-06T13:20:05.810428", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-01-06T13:20:24.887525", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-06T13:32:39.170142", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-06T13:39:54.171947", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-06T13:54:03.895593", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-06T14:08:04.266762", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-06T14:19:07.346342", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-06T14:19:38.327125", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-06T14:20:07.032656", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-07T10:53:55.969784", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-08T16:18:55.295828", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-09T10:33:49.081371", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-10T15:26:31.595132", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-11T10:15:41.595059", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-12T12:29:39.788483", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-01-12T12:33:11.303504", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-08-31T20:53:19.209385", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl"}
-{"datetime": "2025-08-31T20:53:19.209385", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-08-31T20:58:40.274644", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:05:15.763615", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:05:15.763615", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-08-31T21:05:57.105951", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:05:57.105951", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-08-31T21:14:39.072132", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:18:34.680339", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:19:57.304776", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:21:03.561352", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:21:29.205698", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:22:12.963086", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:28:55.757251", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:32:43.530481", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:33:06.151068", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:33:46.020951", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:34:04.927970", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:34:31.301172", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:34:45.905233", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:35:11.509472", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:35:49.477391", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:36:24.931474", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:36:53.650248", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:44:00.679021", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:44:39.350624", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:45:18.798520", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:45:44.646186", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:46:12.834839", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:47:52.750760", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:49:57.862930", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:50:15.585767", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-08-31T21:50:26.852098", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-09-01T14:38:56.104526", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-09-01T14:38:56.104526", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-09-01T14:40:24.063414", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-09-01T14:40:24.063414", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-09-01T14:40:54.913305", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-09-01T14:40:54.913305", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-09-01T14:41:16.077958", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-09-01T14:41:16.077958", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-09-01T14:42:25.849547", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-09-01T14:42:25.849547", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-09-01T14:43:47.337592", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-09-01T14:43:47.337592", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-09-01T14:44:22.007526", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-09-01T14:44:22.007526", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-09-01T14:49:42.393308", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-09-01T14:49:42.393308", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-09-01T14:50:13.362595", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-09-01T14:50:13.362595", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
-{"datetime": "2025-09-01T14:53:47.058769", "status_code": 200, "url": "https://sportsbook.draftkings.com/leagues/football/nfl?category=game-lines&subcategory=game"}
-{"datetime": "2025-09-01T14:53:47.058769", "status_code": 200, "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"}
+[
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-11T10:14:38.902171",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-11T10:16:54.626260",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-11T10:17:26.004140",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-11T10:17:50.495914",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-11T10:18:42.076928",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-11T10:19:14.419884",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-11T10:43:47.784884",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-11T10:49:30.154621",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-11T10:50:05.775877",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-11T10:50:54.065298",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-11T10:52:17.952314",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-16T10:16:10.216190",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-16T10:17:38.202885",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-16T10:18:26.063169",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-17T11:22:26.705486",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-23T12:09:40.529045",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-23T12:09:58.147603",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-24T11:10:32.145463",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-09-30T09:26:44.917203",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-10-01T07:09:56.026117",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-10-07T11:55:31.383182",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-10-07T11:56:58.667319",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-10-07T11:57:24.448680",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-10-08T12:59:04.841339",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-10-14T06:29:17.940759",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-10-15T11:57:23.554976",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-10-22T06:02:49.002497",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-10-22T06:03:08.402928",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-10-28T09:42:10.262038",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-10-29T15:26:28.355371",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-11-04T06:39:00.958594",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-11-05T06:46:28.439657",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-11-11T16:02:36.912020",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-11-19T14:19:40.032486",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-11-26T08:23:27.075269",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-12-03T18:35:31.800941",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-12-09T19:22:33.114060",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-12-10T12:13:17.731740",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-12-10T12:14:06.904590",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-12-16T13:02:45.084359",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-12-17T13:55:48.346292",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-12-17T13:57:41.598418",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-12-19T12:03:30.240028",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-12-23T21:42:24.839285",
+        "status_code": 200,
+        "error": null
+    },
+    {
+        "url": "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard",
+        "timestamp": "2025-12-25T09:26:25.948537",
+        "status_code": 200,
+        "error": null
+    }
+]

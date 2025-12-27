@@ -1,6 +1,6 @@
-from retrieve_NFL_scores import games_outcome_list
+from scrapping.retrieve_NFL_scores import games_outcome_list
 
-from connection import connect_to_db
+from database.connection import connect_to_db
 
 conn = connect_to_db()
 
@@ -28,17 +28,30 @@ query_update = """UPDATE games
 SET score_home = %s, score_away = %s
 WHERE home_teamID = %s AND away_teamID = %s;"""
 
+team_name_dict = {
+    "LA Rams": "LAR Rams",
+    "LA Chargers": "LAC Chargers",
+    "NY Giants": "NYG Giants",
+    "NY Jets": "NYJ Jets",
+    "WAS Commanders": "WSH Commanders",
+}
+
 for game in games_outcome_list:
-    home_team_name = game["home_team"]
-    away_team_name = game["away_team"]
+    home_team = game["home_team"]
+    away_team = game["away_team"]
     home_team_score = game["home_team_score"]
     away_team_score = game["away_team_score"]
 
-    myCursor.execute(query_team_id, (home_team_name,))
+    if home_team in team_name_dict:
+        home_team = team_name_dict[home_team]
+    if away_team in team_name_dict:
+        away_team = team_name_dict[away_team]
+
+    myCursor.execute(query_team_id, (home_team,))
     home_teamID_tuple = myCursor.fetchone()
     home_teamID = home_teamID_tuple[0]
 
-    myCursor.execute(query_team_id, (away_team_name,))
+    myCursor.execute(query_team_id, (away_team,))
     away_teamID_tuple = myCursor.fetchone()
     away_teamID = away_teamID_tuple[0]
     

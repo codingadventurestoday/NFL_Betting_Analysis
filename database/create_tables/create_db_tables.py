@@ -1,7 +1,3 @@
-import mysql.connector
-
-import os
-
 from connection import connect_to_db
 
 conn = connect_to_db()
@@ -46,7 +42,7 @@ CREATE TABLE IF NOT EXISTS odds (
 """
 Create table: season
 Data: from retrieveSeasonData.py import yearInformation
-seasonID TINYINT  UNSIGNED PRIMARY KEY
+seasonID TINYINT UNSIGNED PRIMARY KEY
 year SMALLINT    (index 0)
 end_date DATE   (index 1)
 start_date DATE   (index 2)

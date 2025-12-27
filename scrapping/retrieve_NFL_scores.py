@@ -1,4 +1,4 @@
-from handle_status_code import log_request
+from logging.handle_status_code import log_request
 
 url = "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
 
@@ -12,7 +12,7 @@ team_name_dict = {
     "WSH Commanders" : "WAS Commanders",
 }
 
-if response is not None: 
+if response: 
     games_outcome_list = []
 
     events = response.json()['events']

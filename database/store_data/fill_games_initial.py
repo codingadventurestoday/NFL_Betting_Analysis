@@ -1,11 +1,18 @@
-from draftkings_betting_data import betting_data
-from teamInformation import week
-from connection import connect_to_db
+from scrapping.draftkings_betting_data import betting_data
+from scrapping.teamInformation import week
+from database.connection import connect_to_db
 
 conn = connect_to_db()
 
-week = week["number"]
-next_week = week + 1
+next_week = week + 1 
+
+team_name_dict = {
+    "LA Rams": "LAR Rams",
+    "LA Chargers": "LAC Chargers",
+    "NY Giants": "NYG Giants",
+    "NY Jets": "NYJ Jets",
+    "WAS Commanders": "WSH Commanders",
+}
 
 myCursor = conn.cursor()
 
@@ -27,6 +34,11 @@ for amount, games in enumerate(betting_data):
     game_date = games["date_of_game"]
     home_team = games["home_team_name"]
     away_team = games["away_team_name"]
+
+    if home_team in team_name_dict:
+        home_team = team_name_dict[home_team]
+    if away_team in team_name_dict:
+        away_team = team_name_dict[away_team]
 
     myCursor.execute(query_get_teamID, (away_team,))
     away_teamID = myCursor.fetchone()

@@ -1,6 +1,6 @@
 import mysql.connector
 
-from vault_data import get_db_credentials_from_vault
+from vault.vault_data import get_db_credentials_from_vault
 
 vault_data_tuple = get_db_credentials_from_vault()
 

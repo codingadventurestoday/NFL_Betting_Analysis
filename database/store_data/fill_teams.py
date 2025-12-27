@@ -1,7 +1,5 @@
-import mysql.connector
-
-from connection import connect_to_db
-from teamInformation import teamNames
+from database.connection import connect_to_db
+from scrapping.teamInformation import teamNames
 
 conn = connect_to_db()
 
