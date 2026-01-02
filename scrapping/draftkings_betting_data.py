@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup as bs
 from datetime import datetime, timedelta
 
 from scrapping.helper.convert_date import convert_date, check_starting_time
-from logging.handle_status_code import log_request
+from log.handle_status_code import log_request
 
 """ Please note that the game times are in CUT time zone"""
 

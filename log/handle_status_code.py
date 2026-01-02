@@ -23,18 +23,20 @@ def log_request(url):
         request_info["status_code"] = response.status_code
         print(f"Request to {url} returned status code: {response.status_code}")
         
+        logs = []
+
         # Log the request information
-        log_entry = request_info
+        # log_entry = request_info
         # Read existing logs or start a new list
         if os.path.exists(log_file) and os.path.getsize(log_file) > 0:
             with open(log_file, "r") as f:
                 try:
                     logs = json.load(f)
                 except json.JSONDecodeError:
-                    logs = []
+                    pass
         
         # Append the new log entry
-        logs.append(log_entry)
+        logs.append(request_info)
 
         # Write the updated logs back to the file
         with open(log_file, "w") as f:
@@ -63,7 +65,7 @@ def log_request(url):
         # Write the updated logs back to the file
         with open(log_file, "w") as f:
             json.dump(logs, f, indent=4)
-            
+  
         return None
     except Exception as e:
         print(f"An unexpected error occurred: {e}")

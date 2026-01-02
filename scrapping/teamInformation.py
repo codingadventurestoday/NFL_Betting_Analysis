@@ -1,4 +1,4 @@
-from logging.handle_status_code import log_request
+from log.handle_status_code import log_request
 
 url = "http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
 
@@ -9,7 +9,7 @@ def teamInfo(url):
 
         week = response.json()['week']['number']
         events = response.json()['events']
-        
+
         teamNames = []
 
         #retrieves all NFL team names and abbreviation on Bye week only weeks 5-14
